@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="%2a Footballer">
+      <UniqueIdentifier>{47f583ff-60b0-4cca-ad9d-6a9c19a6e7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a Club">
+      <UniqueIdentifier>{e97c4c8a-d730-4852-abf7-289282d58a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Stadium">
+      <UniqueIdentifier>{5a95b45b-7825-419f-9562-d44b122d715d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action">
+      <UniqueIdentifier>{0755dc25-9430-4f5c-a98f-250e5db61461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\AttackingActions">
+      <UniqueIdentifier>{42195ab1-a705-4f69-9c30-ba0302048575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\AttackingActions\With Ball">
+      <UniqueIdentifier>{f2e0c3e3-ca33-45ba-ac37-e3632868ff61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\AttackingActions\Without Ball">
+      <UniqueIdentifier>{2ba95bb2-ee14-47e0-881f-dd16f1ad9301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\DefendingActions">
+      <UniqueIdentifier>{b9a009c7-a232-496f-b39e-2de7b07b5f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\DefendingActions\Near Ball">
+      <UniqueIdentifier>{45dcf4c7-5dd4-4eef-ac54-377a9fbb5f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Action\DefendingActions\Far From Ball">
+      <UniqueIdentifier>{73329e24-ff69-45a5-b62c-fff6143ddc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a Squad Position">
+      <UniqueIdentifier>{00a27cec-3f1e-46bc-9c0c-a201d6fc6858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Screen Manager">
+      <UniqueIdentifier>{c3daea63-6076-43bc-8b49-a17a14b0f65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Random">
+      <UniqueIdentifier>{33e73852-4e14-416f-8d3b-1786219d81bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a Language">
+      <UniqueIdentifier>{b8c3531c-434b-4d26-9d6b-cd3e2121dc30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceCode\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Club\club.cpp">
+      <Filter>%2a Club</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Footballer\footballer.cpp">
+      <Filter>%2a Footballer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\screen0_main.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\screen2_tactic.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\screen1_selection.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\fonts.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\screen3_match.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Club\club_leicester16.cpp">
+      <Filter>%2a Club</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Footballer\f_leicester16.cpp">
+      <Filter>%2a Footballer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Footballer\f_manunited16.cpp">
+      <Filter>%2a Footballer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Club\club_manunited16.cpp">
+      <Filter>%2a Club</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Stadium\stadium.cpp">
+      <Filter>%2a%2a Stadium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Stadium\ball.cpp">
+      <Filter>%2a%2a Stadium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\random.cpp">
+      <Filter>%2a%2a%2a Random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\SquadPosition\squadPosition.cpp">
+      <Filter>%2a Squad Position</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\Wait.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\GoForward.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\TakeAttackingPosition.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\ComeCloseToBall.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\DefendingActions\FarFromBall\TakeDefendingPosition.cpp">
+      <Filter>%2a%2a Action\DefendingActions\Far From Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\MoveToGatherBall.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\ControlThePass.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Language\language.cpp">
+      <Filter>%2a%2a Language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Language\language_tr.cpp">
+      <Filter>%2a%2a Language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Language\language_en.cpp">
+      <Filter>%2a%2a Language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\SimplePass.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\Shoot.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\HoldAndDribble.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\DribbleForward.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\RiskyPass.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\ScreenManager\iScreen.cpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithBall\Cross.cpp">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\RunBehindDefence.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Action\AttackingActions\WithoutBall\GetIntoBox.cpp">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SourceCode\Headers\enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Headers\fileLocations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Club\club.h">
+      <Filter>%2a Club</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Footballer\footballer.h">
+      <Filter>%2a Footballer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\screen0_main.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\screen1_selection.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\screen2_tactic.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\screen3_match.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\style_general.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\screens.hpp">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\fonts.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Headers\clubIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Stadium\stadium.h">
+      <Filter>%2a%2a Stadium</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Stadium\ball.h">
+      <Filter>%2a%2a Stadium</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\action.h">
+      <Filter>%2a%2a Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\actionPile.h">
+      <Filter>%2a%2a Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\random.h">
+      <Filter>%2a%2a%2a Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\SquadPosition\squadPosition.h">
+      <Filter>%2a Squad Position</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\Wait.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\ComeCloseToBall.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\GoForward.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\TakeAttackingPosition.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\DefendingActions\FarFromBall\TakeDefendingPosition.h">
+      <Filter>%2a%2a Action\DefendingActions\Far From Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\debugoptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\MoveToGatherBall.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\ControlThePass.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Language\language.h">
+      <Filter>%2a%2a Language</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\SimplePass.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\Shoot.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\HoldAndDribble.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\DribbleForward.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\RiskyPass.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\ScreenManager\iScreen.h">
+      <Filter>%2a%2a Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithBall\Cross.h">
+      <Filter>%2a%2a Action\AttackingActions\With Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\RunBehindDefence.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Action\AttackingActions\WithoutBall\GetIntoBox.h">
+      <Filter>%2a%2a Action\AttackingActions\Without Ball</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
