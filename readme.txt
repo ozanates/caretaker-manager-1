@@ -1,6 +1,11 @@
 *****
 *****
 
+This is a graduation project developed by Ozan Ateş. The project is about developing a graphical user interface, a football simulation and an artificial intelligence architecture for a new football management game.
+
+*****
+*****
+
 // Folders named "fonts" and "pic"  contain the necessary resources for the game. These folders should be in the same directory with the exe.
 
 *****
