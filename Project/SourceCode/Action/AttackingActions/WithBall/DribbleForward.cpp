@@ -30,7 +30,7 @@ int DribbleForward::checkPreconditions(SquadPosition* player, Stadium* stadium)
 
 	float dribbling_distance = 10.0;
 
-	float dribbling_weight = 850 + 10 * (0.5-player->freq_dribblingForward) + random->get_int(0,100);
+	float dribbling_weight = 800 + 10 * (0.5-player->freq_dribblingForward) + random->get_int(0,100);
 	
 	// Find space. Return 0 if there is not
 	float alpha = player->club->onTheRightGoal ? M_PI : 0;
@@ -47,7 +47,7 @@ int DribbleForward::checkPreconditions(SquadPosition* player, Stadium* stadium)
 	}
 	else 
 	{
-		alpha = random->get_float(0.1,1.0);
+		alpha += random->get_float(0.1,1.0);
 		target.x = player_pos.x + ( dribbling_distance * cos(alpha) );
 		target.y = player_pos.y + ( dribbling_distance * sin(alpha) );
 		if ( !otherClub->isSomeoneThere_points( player_pos, target,2) )
@@ -57,7 +57,7 @@ int DribbleForward::checkPreconditions(SquadPosition* player, Stadium* stadium)
 		}
 		else
 		{
-			alpha = random->get_float(-1.0,-0.1);
+			alpha += random->get_float(-1.0,-0.1);
 			target.x = player_pos.x + ( dribbling_distance * cos(alpha) );
 			target.y = player_pos.y + ( dribbling_distance * sin(alpha) );
 			if ( !otherClub->isSomeoneThere_points( player_pos, target,2) )
