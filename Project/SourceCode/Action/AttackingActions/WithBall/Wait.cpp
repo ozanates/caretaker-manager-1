@@ -10,7 +10,7 @@ int Wait::checkPreconditions(SquadPosition* player, Stadium* stadium)
 	if ( distanceBetween(player->getPosition(),stadium->ball->getPosition2()) > REACHING_DISTANCE ) 
 		return 0;
 
-	return 2000;
+	return 200;
 };
 
 bool Wait::execute(SquadPosition* player, Stadium* stadium)
